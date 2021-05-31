@@ -19,12 +19,12 @@
                 </a>
                 <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav accordion" id="s">
-                        <a class="nav-link ml-3" href="layout-static.html"> 
+                        <a class="nav-link ml-3" href="<?=constant('URL')?>roles/index"> 
                             <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
                             Usuarios  
                         </a>
 
-                        <a class="nav-link ml-3" href="layout-static.html"> 
+                        <a class="nav-link ml-3" href="<?=constant('URL')?>usuarios/index"> 
                             <div class="sb-nav-link-icon"><i class="fas fa-users-cog"></i></div>
                             Roles  
                         </a>
@@ -40,22 +40,22 @@
                 </a>
                 <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-parent="#sidenavAccordion">
                     <nav class="sb-sidenav-menu-nested nav" id="s">
-                        <a class="nav-link ml-3" href="layout-static.html"> 
+                        <a class="nav-link ml-3" href="<?=constant('URL')?>Producto/index"> 
                         <div class="sb-nav-link-icon"><i class="fas fa-pallet fa-sm"></i></div>
                         Productos  
                         </a>
 
-                        <a class="nav-link ml-3" href="layout-static.html"> 
+                        <a class="nav-link ml-3" href=""> 
                         <div class="sb-nav-link-icon"><i class="fas fa-layer-group fa-sm"></i></div>
                         Categorias  
                         </a>
 
-                        <a class="nav-link ml-3" href="layout-static.html"> 
+                        <a class="nav-link ml-3" href=""> 
                         <div class="sb-nav-link-icon"><i class="fas fa-tags fa-sm"></i></div>
                         Marcas  
                         </a>
 
-                        <a class="nav-link ml-3" href="layout-static.html"> 
+                        <a class="nav-link ml-3" href=""> 
                         <div class="sb-nav-link-icon"><i class="fas fa-book fa-sm"></i></div>
                         Estado Productos  
                         </a>
