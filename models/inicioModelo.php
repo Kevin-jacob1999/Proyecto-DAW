@@ -35,11 +35,11 @@
         //Métodos 
         public function validarLogin(){
             $nivel = "";
-            $sql = "SELECT rol FROM usuario WHERE usuario='".$this->usuario."' AND clave='".$this->clave."'";
+            $sql = "SELECT ID_Rol FROM usuario WHERE usuario='".$this->usuario."' AND Contrasena='".$this->clave."'";
             $data = $this->getDb()->conexion()->query($sql);
 
             while($fila = $data->fetch_assoc()){
-                $nivel = $fila['rol'];
+                $nivel = $fila['ID_Rol'];
             }
 
             return $nivel;
